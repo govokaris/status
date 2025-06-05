@@ -16,6 +16,7 @@ sites:
     ipv6: true
 
 status-website:
+  theme: light
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.vokaris.net
@@ -29,6 +30,10 @@ status-website:
       href: /
     - title: Issues
       href: https://github.com/$OWNER/$REPO/issues
+
+i18n:
+  footer: © 2025 [Vokaris](https://vokaris.net)
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
